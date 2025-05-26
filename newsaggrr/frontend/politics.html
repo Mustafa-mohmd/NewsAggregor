@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Political News - NewsAggregator</title>
+    <link rel="stylesheet" href="politics.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">News<span>Aggregator</span></div>
+                <div class="nav-user-container">
+                   
+                    <div class="user-actions">
+                        <div class="user-profile" id="userProfile">
+                            <img src="/api/placeholder/32/32" alt="User avatar" class="user-avatar">
+                            <span class="user-name">John Doe</span>
+                            <span class="dropdown-icon">▼</span>
+                            <div class="dropdown-menu" id="userDropdown">
+                                <ul>
+                                    <li><a href="#">My Profile</a></li>
+                                    <li><a href="#">Saved Articles</a></li>
+                                    <li><a href="#">Reading History</a></li>
+                                    <li><a href="#">Settings</a></li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a href="#" id="logoutBtn">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="login.html" class="login-btn" id="loginBtn">Login</a>
+                        <a href="signup.html" class="signup-btn" id="signupBtn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Search political news...">
+            <button>Search</button>
+        </div>
+        
+        <div class="category-filter">
+            <button class="category-btn" data-page="home1.html">All</button>
+            <button class="category-btn active" data-page="politics.html">Politics</button>
+            <button class="category-btn" data-page="business.html">Business</button>
+            <button class="category-btn" data-page="technology.html">Technology</button>
+            <button class="category-btn" data-page="health.html">Health</button>
+            <button class="category-btn" data-page="sports.html">Sports</button>
+            <button class="category-btn" data-page="entertainment.html">Entertainment</button>
+        </div>
+        <!-- Featured News Section (same as home page) -->
+        <section class="featured-news">
+            <h2>Featured Political Story</h2>
+            <div class="featured-article">
+                <img src="politics1.jpg" alt="Featured political news" class="featured-image">
+                <div class="featured-content">
+                    <div class="news-source">
+                        <img src="politicallogo.png" alt="Source logo" class="source-logo">
+                        <span class="source-name">Political Times</span>
+                    </div>
+                    <h3 class="featured-title">Major Policy Reform Announced by Government</h3>
+                    <p class="featured-excerpt">The administration has unveiled sweeping reforms that will affect multiple sectors of the economy, with lawmakers on both sides preparing for intense debate in the coming weeks.</p>
+                    <div class="news-meta">
+                        <span>March 20, 2025</span>
+                        <span>6 min read</span>
+                    </div>
+                    <a href="#" class="read-more">Read Full Story</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Latest News Section with 6 cards (same as home page) -->
+        <section class="latest-news">
+            <h2>Latest Political News</h2>
+            <div class="news-grid">
+                <!-- Card 1 -->
+                  <div class="news-source">
+                     <div class="news-card">
+                    <img src="politics2.jpg" alt="Political news" class="news-image">
+                    <div class="news-content">
+                        <div class="news-source"><span class="source-name">Political Times</span></div>
+                        </div>
+                        <h3 class="news-title">Opposition Leader Proposes Alternative Budget Plan</h3>
+                        <p class="news-excerpt">The opposition has presented its version of the national budget, focusing on increased social spending and reduced military expenditure.</p>
+                        <div class="news-meta">
+                            <span>March 20, 2025</span>
+                            <span>4 min read</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="news-card">
+                    <img src="politics3.jpg" alt="Political news" class="news-image">
+                    <div class="news-content">
+                        <div class="news-source"><span class="source-name">Political Times</span></div>
+
+                        <h3 class="news-title">New Legislation Aims to Reform Healthcare System</h3>
+                        <p class="news-excerpt">A bipartisan group of senators has introduced a bill that would significantly alter how healthcare is administered nationwide.</p>
+                        <div class="news-meta">
+                            <span>March 19, 2025</span>
+                            <span>5 min read</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="news-card">
+                    <img src="politics4.jpg" alt="Political news" class="news-image">
+                    <div class="news-content">
+                        <div class="news-source">
+                            <div class="news-source"><span class="source-name">Political Times</span></div>
+                        </div>
+                        <h3 class="news-title">International Summit Addresses Climate Policy</h3>
+                        <p class="news-excerpt">World leaders gathered to discuss coordinated efforts to combat climate change, with several nations making new commitments.</p>
+                        <div class="news-meta">
+                            <span>March 19, 2025</span>
+                            <span>4 min read</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+        
+                    </div>
+                </div>
+                
+                
+            
+                    </div>
+                </div>
+        <!-- Rest of the content remains the same -->
+        
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About NewsHub</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="home1.html">Home</a></li>
+                        <li><a href="business.html">Business</a></li>
+                        <li><a href="technology.html">Technology</a></li>
+                        <li><a href="health.html">Health</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+
+    
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <!-- Other footer content remains the same -->
+            </div>
+        </div>
+    </footer>
+    
+    <script src="home1.js"></script>
+</body>
+</html>

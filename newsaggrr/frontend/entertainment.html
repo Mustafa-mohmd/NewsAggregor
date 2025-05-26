@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment News - NewsAggregator</title>
+    <link rel="stylesheet" href="home1.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">News<span>Aggregator</span></div>
+                <div class="nav-user-container">
+                    
+                    <div class="user-actions">
+                        <div class="user-profile" id="userProfile">
+                            <img src="/api/placeholder/32/32" alt="User avatar" class="user-avatar">
+                            <span class="user-name">John Doe</span>
+                            <span class="dropdown-icon">▼</span>
+                            <div class="dropdown-menu" id="userDropdown">
+                                <ul>
+                                    <li><a href="#">My Profile</a></li>
+                                    <li><a href="#">Saved Articles</a></li>
+                                    <li><a href="#">Reading History</a></li>
+                                    <li><a href="#">Settings</a></li>
+                                    <li class="dropdown-divider"></li>
+                                    <li><a href="#" id="logoutBtn">Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="login.html" class="login-btn" id="loginBtn">Login</a>
+                        <a href="signup.html" class="signup-btn" id="signupBtn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Search entertainment news...">
+            <button>Search</button>
+        </div>
+        
+        <div class="category-filter">
+            <button class="category-btn" data-page="home1.html">All</button>
+            <button class="category-btn" data-page="politics.html">Politics</button>
+            <button class="category-btn" data-page="business.html">Business</button>
+            <button class="category-btn" data-page="technology.html">Technology</button>
+            <button class="category-btn" data-page="health.html">Health</button>
+            <button class="category-btn" data-page="sports.html">Sports</button>
+            <button class="category-btn active" data-page="entertainment.html">Entertainment</button>
+        </div>
+        
+        <section class="featured-news">
+            <h2>Featured Entertainment Story</h2>
+            <div class="featured-article">
+                <img src="block.jpg" alt="Featured entertainment news" class="featured-image">
+                <div class="featured-content">
+                    <div class="news-source">
+                        <img src="mlogo.png" alt="Source logo" class="source-logo">
+                        <span class="source-name">Variety</span>
+                    </div>
+                    <h3 class="featured-title">Blockbuster Film Breaks Box Office Records</h3>
+                    <p class="featured-excerpt">A highly anticipated movie shattered opening weekend records, grossing over $300 million globally and reigniting cinema enthusiasm.</p>
+                    <div class="news-meta">
+                        <span>March 25, 2025</span>
+                        <span>5 min read</span>
+                    </div>
+                    <a href="#" class="read-more">Read Full Story</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="latest-news">
+            <h2>Latest Entertainment News</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <img src="enjoy2.jpg" alt="Entertainment news" class="news-image">
+                    <div class="news-content">
+                        <div class="news-source">
+                            <span class="source-name">Hollywood Reporter</span>
+                        </div>
+                        <h4>Music Icon Announces Surprise Album Drop</h4>
+                        <p>A global superstar shocked fans by releasing a new album with no prior promotion, topping streaming charts within hours.</p>
+                        <div class="news-meta">
+                            <span>March 24, 2025</span>
+                            <span>3 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="enjoy1.jpg" alt="Entertainment news" class="news-image">
+                    <div class="news-content">
+                        <div class="news-source">
+                            <span class="source-name">Entertainment Weekly</span>
+                        </div>
+                        <h4>TV Series Finale Sparks Social Media Frenzy</h4>
+                        <p>The conclusion of a popular show left viewers divided, trending worldwide as fans debated the controversial ending.</p>
+                        <div class="news-meta">
+                            <span>March 23, 2025</span>
+                            <span>4 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="enjoy4.jpg" alt="Entertainment news" class="news-image">
+                    <div class="news-content">
+                        <div class="news-source">
+                            <span class="source-name">Deadline</span>
+                        </div>
+                        <h4>Celebrity Couple’s Wedding Dominates Headlines</h4>
+                        <p>A star-studded ceremony captivated audiences, with exclusive photos driving record traffic to entertainment sites.</p>
+                        <div class="news-meta">
+                            <span>March 22, 2025</span>
+                            <span>3 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>About NewsHub</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="home1.html">Home</a></li>
+                        <li><a href="politics.html">Politics</a></li>
+                        <li><a href="business.html">Business</a></li>
+                        <li><a href="technology.html">Technology</a></li>
+                        <li><a href="health.html">Health</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="home1.js"></script>
+</body>
+</html>
